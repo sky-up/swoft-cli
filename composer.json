@@ -1,5 +1,5 @@
 {
-  "name": "swoft/cli",
+  "name": "swoft-fork/cli",
   "type": "project",
   "keywords": [
     "php",
@@ -11,9 +11,10 @@
   "description": "micro-service framework base on swoole",
   "license": "Apache-2.0",
   "require": {
-    "php": ">7.1.0",
+    "php": ">=8.0",
     "ext-json": "*",
     "ext-mbstring": "*",
+    "doctrine/annotations": "^2.0",
     "seld/phar-utils": "^1.0",
     "swoft/framework": "~2.0.8",
     "swoft/tcp": "~2.0.1",
@@ -21,7 +22,7 @@
     "swoftlabs/common-devtool": "dev-master as 1.0"
   },
   "require-dev": {
-    "swoft/swoole-ide-helper": "dev-master"
+    "swoft-fork/swoole-ide-helper": "dev-master"
   },
   "autoload": {
     "psr-4": {
@@ -30,7 +31,13 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "SwoftTest\\Cli\\": "test/"
+      "SwoftTest\\Cli\\Testing\\": "test/testing",
+      "SwoftTest\\Cli\\Unit\\": "test/unit"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "doctrine/annotations": true
     }
   },
   "repositories": {
@@ -44,7 +51,6 @@
     }
   },
   "scripts": {
-    "test0": "echo 'hello'",
     "test": "./vendor/bin/phpunit -c phpunit.xml",
     "cs-fix": "./vendor/bin/php-cs-fixer fix $1"
   }

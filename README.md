@@ -20,16 +20,14 @@
 
 ![home](swoftcli-home.png)
 
-## Install
-
 Download phar from github releases page
 
 > Notice: please replace the `{VERSION}` to specified version
 
 ```bash
-# wget https://github.com/swoft-cloud/swoft-cli/releases/download/{VERSION}/swoftcli.phar
+# wget https://github.com/swoft-fork/swoft-cli/releases/download/{VERSION}/swoftcli.phar
 # eg
-wget https://github.com/swoft-cloud/swoft-cli/releases/download/v0.2.0/swoftcli.phar
+wget https://github.com/swoft-fork/swoft-cli/releases/download/v0.2.0/swoftcli.phar
 
 # quick check
 php swoftcli.phar -V

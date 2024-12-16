@@ -20,20 +20,14 @@
 
 ![home](swoftcli-home.png)
 
-## 安装
-
-安装 swoftcli 非常简单。我们提供已经打包好的phar放在GitHub上。
-
-> 更多使用文档 on http://www.swoft.io/docs/2.x/zh-CN/tool/swoftcli/index
-
 ## 下载
 
-你需要从 swoft-cli 的 [GitHub Releases](https://github.com/swoft-cloud/swoft-cli/releases) 下载打包好的 `swoftcli.phar`
+你需要从 swoft-cli 的 [GitHub Releases](https://github.com/swoft-fork/swoft-cli/releases) 下载打包好的 `swoftcli.phar`
 
 > 注意：需要将下面命令里的 `{VERSION}` 替换为指定的版本。当然也你可以直接通过浏览器下载
 
 ```bash
-wget https://github.com/swoft-cloud/swoft-cli/releases/download/{VERSION}/swoftcli.phar
+wget https://github.com/swoft-fork/swoft-cli/releases/download/{VERSION}/swoftcli.phar
 
 # 检查包是否可用
 php swoftcli.phar -V
@@ -58,7 +52,7 @@ swoftcli -V
 如果你需要从最新的代码构建phar包：
 
 ```bash
-git clone https://github.com/swoft-cloud/swoft-cli
+git clone https://github.com/swoft-fork/swoft-cli
 cd swoft-cli 
 composer install
 

@@ -8,6 +8,10 @@
 
 > **[中文说明](README.zh-CN.md)**
 
+**notice:**
+
+This repository is forked from the Swoft repository on GitHub and has only been tested with Swoole version 4.8.13 and the corresponding PHP 8.2 environment. Please use with caution in your production environment, as active code maintenance is not guaranteed. For documentation, please refer to the original framework documentation.
+
 🛠️ swoft-cli is an CLI tool application for quick use swoft.
 
 - Quick create new application skeleton
@@ -27,7 +31,7 @@ Download phar from github releases page
 ```bash
 # wget https://github.com/swoft-fork/swoft-cli/releases/download/{VERSION}/swoftcli.phar
 # eg
-wget https://github.com/swoft-fork/swoft-cli/releases/download/v0.2.0/swoftcli.phar
+wget https://github.com/swoft-fork/swoft-cli/releases/download/v0.2.2/swoftcli.phar
 
 # quick check
 php swoftcli.phar -V

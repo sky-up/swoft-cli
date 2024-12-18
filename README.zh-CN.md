@@ -1,12 +1,17 @@
 # Swoft CLI
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/swoft-cloud/swoft-cli)](https://github.com/swoft-cloud/swoft-cli)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/swoft-cloud/swoft-cli)](https://github.com/swoft-fork/swoft-cli)
 [![Php Version](https://img.shields.io/badge/php-%3E=8.0-brightgreen.svg?maxAge=2592000)](https://secure.php.net/)
 [![Swoft Doc](https://img.shields.io/badge/docs-passing-green.svg?maxAge=2592000)](https://www.swoft.org/docs)
 [![Swoft License](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)](https://github.com/swoft-cloud/swoft/blob/master/LICENSE)
 [![PHP-CI](https://github.com/swoft-cloud/swoft-cli/workflows/PHP-CI/badge.svg)](https://github.com/swoft-cloud/swoft-cli/actions)
 
 > **[EN README](README.md)**
+
+**注意：**
+
+本仓库fork于github swoft库，只测试了swoole4.8.13，php8.2对应版本环境，请慎用于你的生产环境，不负责积极代码维护。如需查看文档请访问原框架文档。
+
 
 🛠️ Swoft CLI 是一个独立的命令行应用包，提供了一些内置的工具方便开发者使用。
 

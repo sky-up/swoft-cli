@@ -14,12 +14,12 @@
     "php": ">=8.0",
     "ext-json": "*",
     "ext-mbstring": "*",
-    "doctrine/annotations": "^2.0",
+    "doctrine/annotations": "^1.4",
     "seld/phar-utils": "^1.0",
-    "swoft-fork/framework": "~2.0.8",
-    "swoft-fork/tcp": "~2.0.1",
-    "swoft-fork/http-server": "~2.0.0",
-    "swoftlabs/common-devtool": "dev-master as 1.0"
+    "swoft-fork/framework": "~2.1.0",
+    "swoft-fork/tcp": "~2.1.0",
+    "swoft-fork/http-server": "~2.1.0",
+    "swoft-fork/console": "~2.1.0"
   },
   "require-dev": {
     "swoft-fork/swoole-ide-helper": "dev-master"

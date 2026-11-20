@@ -11,7 +11,7 @@
   "description": "micro-service framework base on swoole",
   "license": "Apache-2.0",
   "require": {
-    "php": ">=8.0",
+    "php": ">=8.3",
     "ext-json": "*",
     "ext-mbstring": "*",
     "doctrine/annotations": "^1.4",
@@ -43,7 +43,7 @@
   "repositories": {
     "packagist": {
       "type": "composer",
-      "url": "https://mirrors.aliyun.com/composer/"
+      "url": "https://repo.packagist.org"
     },
     "0": {
       "type": "git",
